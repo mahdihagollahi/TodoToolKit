@@ -8,18 +8,12 @@ function Todos() {
   const dispatch = useDispatch(); 
   const todos = useSelector((state) => state.todo.todos); 
 
-
-
-
-
   const handleAddTodo = () => {
     if (newTitle.trim() !== "") {
       dispatch(addTodo({title:newTitle})); 
       setNewTitle("");
     }
   };
-
-
 
   const handleKeyDown = (event) => { 
     if (event.key === 'Enter') {
