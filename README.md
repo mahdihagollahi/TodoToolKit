@@ -14,7 +14,7 @@
 > First, clone the project
 
 ```bash
- https://github.com/mahdihagollahi/TodoToolKit.git
+git clone https://github.com/mahdihagollahi/TodoToolKit.git
 ```
 
 > to run TodoToolKit with npm
